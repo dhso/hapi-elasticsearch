@@ -1,0 +1,43 @@
+{
+    "name": "hapi-elasticsearch",
+    "version": "1.0.0",
+    "description": "A Hapi plugin for the elasticsearch",
+    "main": "./lib",
+    "scripts": {
+        "lint": "eslint *.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dhso/hapi-elasticsearch.git"
+    },
+    "keywords": [
+        "hapi",
+        "wechat",
+        "wechat api"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dhso/hapi-elasticsearch/issues"
+    },
+    "author": {
+        "name": "dhso",
+        "email": "dhso@163.com"
+    },
+    "dependencies": {
+        "elasticsearch": "^15.1.1",
+        "joi": "^13.1.1"
+    },
+    "devDependencies": {
+        "code": "^4.0.0",
+        "eslint": "^3.7.1",
+        "hapi": "^15.1.1"
+    },
+    "homepage": "https://github.com/dhso/hapi-elasticsearch",
+    "peerDependencies": {
+        "elasticsearch": "^15.1.1",
+        "hapi": "^17.0.0"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    }
+}
